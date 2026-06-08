@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: #F8F6F2;
+    color: #1A1A1A;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* prevent horizontal overflow on mobile */
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: #E76F51;
+    color: #F8F6F2;
+  }
+  /* Better tap targets on mobile */
+  button, a {
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Prevent iOS zoom on input focus */
+  input, select, textarea {
+    font-size: 16px;
+  }
+  @media (min-width: 640px) {
+    input, select, textarea {
+      font-size: 14px;
+    }
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-sm font-medium transition-all duration-200 shadow-soft hover:bg-primary-deep hover:-translate-y-0.5 text-sm;
+  }
+  .btn-accent {
+    @apply inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-3 rounded-sm font-medium transition-all duration-200 hover:brightness-95 hover:-translate-y-0.5 text-sm;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-primary text-primary px-5 py-3 rounded-sm font-medium bg-transparent transition-all duration-200 hover:bg-primary hover:text-primary-foreground text-sm;
+  }
+  .card-elegant {
+    @apply bg-card border border-border rounded-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-elegant hover:border-secondary/60;
+  }
+  .section-pad {
+    @apply py-14 sm:py-20 lg:py-28;
+  }
+  .container-narrow {
+    @apply max-w-6xl mx-auto px-4 sm:px-6;
+  }
+  .eyebrow {
+    @apply font-sans text-[10px] sm:text-xs font-semibold tracking-[0.22em] uppercase text-accent;
+  }
+  .display-serif {
+    @apply font-display font-medium leading-[1.05];
+  }
+  .rule-gold {
+    @apply inline-block w-10 sm:w-14 h-0.5 bg-secondary;
+  }
+}
