@@ -51,11 +51,11 @@ export default function Footer() {
               <span className="break-all">hello@sarthilifefoundation.org</span>
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0" /> +91 98XXXXXXXX
+              <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0" /> +91 7052557408
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0 mt-0.5" />
-              <span>Lucknow, Uttar Pradesh, India</span>
+              <span>Gurugram, Haryana, India</span>
             </li>
           </ul>
         </div>
