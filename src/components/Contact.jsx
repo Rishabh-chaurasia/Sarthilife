@@ -34,8 +34,8 @@ export default function Contact() {
           <Reveal delay={0.08}>
             <div className="mt-7 space-y-4">
               <ContactRow icon={Mail} label="Email" value="hello@sarthilifefoundation.org" />
-              <ContactRow icon={Phone} label="Phone" value="+91 98XXXXXXXX" />
-              <ContactRow icon={MapPin} label="Office" value="Lucknow, Uttar Pradesh, India" />
+              <ContactRow icon={Phone} label="Phone" value="+91 7052557408" />
+              <ContactRow icon={MapPin} label="Office" value="Gurugram, Haryana, India" />
             </div>
           </Reveal>
         </div>
