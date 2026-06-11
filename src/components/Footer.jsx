@@ -48,7 +48,7 @@ export default function Footer() {
           <ul className="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-xs sm:text-sm text-primary-foreground/75">
             <li className="flex items-start gap-2">
               <Mail className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0 mt-0.5" />
-              <span className="break-all">hello@sarthilifefoundation.org</span>
+              <span className="break-all">contact@sarthilife.org</span>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 shrink-0" /> +91 7052557408
