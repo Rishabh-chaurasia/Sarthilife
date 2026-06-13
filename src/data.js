@@ -217,7 +217,51 @@ export const VOLUNTEERS = [
     quote:
       'Care and compassion create the strongest communities.',
   },
-]
+];
+ export const STORIES = [
+  {
+    image: s1,
+    name: 'Ananya, 18',
+    place: 'Lucknow, Uttar Pradesh',
+    title: 'From a one-room home to her first college classroom.',
+    body:
+      "Ananya's father is a daily wage worker. With a scholarship and mentorship through SarthiLife, she became the first in her family to enrol in a B.Sc programme.",
+    tag: 'Education',
+  },
+
+  {
+    image: s2,
+    name: 'Rohit, 20',
+    place: 'Govt. ITI, Kanpur',
+    title:
+      'A government school student who now mentors juniors in cybersecurity.',
+    body:
+      'After attending a SarthiLife–DCiphers cyber workshop, Rohit completed a 6-month track and today runs awareness sessions for younger students.',
+    tag: 'Cybersecurity',
+  },
+
+  {
+    image: s3,
+    name: 'Shanti Devi, 72',
+    place: 'Indira Nagar',
+    title:
+      "Living with Parkinson's — and no longer alone.",
+    body:
+      'Weekly companion visits, medicine support and small dignities have changed how Shanti Devi experiences her day.',
+    tag: 'Elder Care',
+  },
+
+  {
+    image: s4,
+    name: 'Volunteer Story',
+    place: 'SarthiLife Volunteer',
+    title:
+      '"Small efforts create meaningful change."',
+    body:
+      'A reflection from our volunteers working towards education, mentorship and community support.',
+    tag: 'Volunteer',
+  },
+];
 export const GALLERY = [
   { src: g1, cat: 'Government School Visits', alt: 'Children in a government school classroom', span: 'row-span-2' },
   { src: g2, cat: 'Student Mentorship', alt: 'Mentor speaking with students' },
