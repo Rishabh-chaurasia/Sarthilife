@@ -1,4 +1,4 @@
-import heroImg from './assets/hero-classroom.jpg'
+import heroImg from './assets/hero-classroom.jpg' 
 import elderImg from './assets/elder-care.jpg'
 import careerImg from './assets/career-counseling.jpg'
 import founderImg from './assets/founder.jpg'
@@ -81,122 +81,143 @@ export const FOUNDER_COMPANIES = [
 ]
 
 // Our volunteers
+// Our volunteers
 export const VOLUNTEERS = [
   {
-    name: 'Meera Sharma',
-    role: 'Weekend Mentor',
-    location: 'Lucknow',
+    name: 'Megha Srivastava',
+    role: 'Education Mentor & Academic Guide',
+    location: 'India',
     avatar: 'MS',
     avatarColor: 'bg-violet-100 text-violet-700',
-    doing: 'Teaching basic mathematics and science to Class 7–9 students at a government school every Saturday.',
-    contribution: '120+ students coached',
+    doing:
+      'B.Tech, M.Sc and PhD qualified mentor guiding students through academics, higher education decisions and long-term learning goals.',
+    contribution: 'Academic mentoring',
     tag: 'Education',
     tagColor: 'bg-emerald-100 text-emerald-700',
-    since: '2022',
-    quote: 'I came to teach. I left having learnt far more about resilience.',
+    since: 'Volunteer',
+    quote:
+      'Helping students discover their strengths and move confidently towards their dreams.',
   },
+
+
   {
-    name: 'Arjun Verma',
-    role: 'Career Counselor',
-    location: 'Kanpur',
-    avatar: 'AV',
+    name: 'Aditya Srivastava',
+    role: 'Career & Corporate Mentor',
+    location: 'Singapore / India',
+    avatar: 'AS',
     avatarColor: 'bg-sky-100 text-sky-700',
-    doing: 'Conducting monthly group sessions for Class 12 students on engineering and BCA career paths.',
-    contribution: '80+ counseling sessions',
+    doing:
+      'With academic exposure from Symbiosis and NUS Singapore, along with professional experience at Deloitte, mentoring young adults for higher education, career opportunities and corporate soft skills.',
+    contribution: 'Career guidance & soft skills',
     tag: 'Career',
     tagColor: 'bg-sky-100 text-sky-700',
-    since: '2021',
-    quote: 'One good conversation at the right time can change everything.',
+    since: 'Volunteer',
+    quote:
+      'The right guidance at the right stage can open doors students never imagined.',
   },
+
+
   {
-    name: 'Priya Nair',
-    role: 'Elder Care Companion',
-    location: 'Lucknow',
-    avatar: 'PN',
-    avatarColor: 'bg-rose-100 text-rose-700',
-    doing: 'Visiting elderly residents with Parkinson\'s twice a week — reading, talking, helping with medicine.',
-    contribution: '15 seniors supported weekly',
-    tag: 'Elder Care',
-    tagColor: 'bg-rose-100 text-rose-700',
-    since: '2023',
-    quote: 'They have so much to give. We just need to show up.',
-  },
-  {
-    name: 'Rahul Singh',
-    role: 'Cyber Workshop Lead',
-    location: 'Greater Noida',
-    avatar: 'RS',
-    avatarColor: 'bg-amber-100 text-amber-700',
-    doing: 'Co-facilitating hands-on cybersecurity awareness workshops with DCiphers for rural college students.',
-    contribution: '6 workshops conducted',
-    tag: 'Cybersecurity',
-    tagColor: 'bg-amber-100 text-amber-700',
-    since: '2023',
-    quote: 'Digital safety knowledge should not be a privilege.',
-  },
-  {
-    name: 'Sunita Gupta',
-    role: 'Documentation Volunteer',
-    location: 'Remote',
-    avatar: 'SG',
-    avatarColor: 'bg-teal-100 text-teal-700',
-    doing: 'Writing and editing impact stories, newsletters, and annual reports to help communicate our work.',
-    contribution: '40+ stories documented',
-    tag: 'Communication',
-    tagColor: 'bg-teal-100 text-teal-700',
-    since: '2022',
-    quote: 'Stories are how the world understands change.',
-  },
-  {
-    name: 'Dev Patel',
-    role: 'Tech Volunteer',
-    location: 'Remote',
-    avatar: 'DP',
+    name: 'Aditi Srivastava',
+    role: 'Digital Skills Mentor',
+    location: 'India',
+    avatar: 'AD',
     avatarColor: 'bg-indigo-100 text-indigo-700',
-    doing: 'Building and maintaining the foundation\'s website and digital tools pro-bono.',
-    contribution: 'Full website rebuilt',
-    tag: 'Technology',
+    doing:
+      'MBA in Digital Marketing from Symbiosis, supporting students with digital awareness, communication skills and modern career readiness.',
+    contribution: 'Digital mentoring',
+    tag: 'Digital Skills',
     tagColor: 'bg-indigo-100 text-indigo-700',
-    since: '2024',
-    quote: 'Good tech should serve people who need it most.',
+    since: 'Volunteer',
+    quote:
+      'Digital knowledge gives young minds confidence for the future.',
   },
-]
 
-export const STORIES = [
+
   {
-    image: s1,
-    name: 'Ananya, 18',
-    place: 'Lucknow, Uttar Pradesh',
-    title: 'From a one-room home to her first college classroom.',
-    body: "Ananya's father is a daily wage worker. With a scholarship and mentorship through Sarthilife, she became the first in her family to enrol in a B.Sc programme.",
+    name: 'Meera Srivastava',
+    role: 'Student Development Mentor',
+    location: 'India',
+    avatar: 'MS',
+    avatarColor: 'bg-rose-100 text-rose-700',
+    doing:
+      'MA and B.Ed qualified educator helping students through learning support, guidance and personal development.',
+    contribution: 'Student support',
     tag: 'Education',
+    tagColor: 'bg-rose-100 text-rose-700',
+    since: 'Volunteer',
+    quote:
+      'Education becomes meaningful when every child receives personal attention.',
   },
+
+
   {
-    image: s2,
-    name: 'Rohit, 20',
-    place: 'Govt. ITI, Kanpur',
-    title: 'A government school student who now mentors juniors in cybersecurity.',
-    body: 'After attending a Sarthilife–DCiphers cyber workshop, Rohit completed a 6-month track and today runs awareness sessions for younger students.',
+    name: 'Sarita Kishore',
+    role: 'Academic Mentor',
+    location: 'India',
+    avatar: 'SK',
+    avatarColor: 'bg-teal-100 text-teal-700',
+    doing:
+      'M.Sc and B.Ed qualified mentor supporting students with education guidance and academic confidence.',
+    contribution: 'Academic support',
+    tag: 'Education',
+    tagColor: 'bg-teal-100 text-teal-700',
+    since: 'Volunteer',
+    quote:
+      'Every student deserves someone who believes in their potential.',
+  },
+
+
+  {
+    name: 'Amanshree Kishore',
+    role: 'Higher Education & Career Mentor',
+    location: 'Delhi',
+    avatar: 'AK',
+    avatarColor: 'bg-amber-100 text-amber-700',
+    doing:
+      'B.Tech and MBA from FMS Delhi, guiding students with career decisions, higher education planning and professional growth.',
+    contribution: 'Career mentoring',
     tag: 'Career',
+    tagColor: 'bg-amber-100 text-amber-700',
+    since: 'Volunteer',
+    quote:
+      'Career clarity can transform ambition into achievement.',
   },
+
+
   {
-    image: s3,
-    name: 'Shanti Devi, 72',
-    place: 'Indira Nagar',
-    title: "Living with Parkinson's — and no longer alone.",
-    body: 'Weekly companion visits, medicine support and small dignities have changed how Shanti Devi experiences her day.',
-    tag: 'Elder Care',
+    name: 'Abhay Kishore',
+    role: 'Professional Development Mentor',
+    location: 'India',
+    avatar: 'AK',
+    avatarColor: 'bg-orange-100 text-orange-700',
+    doing:
+      'LLB and MBA from IIM Udaipur, mentoring students on career choices, leadership skills and professional opportunities.',
+    contribution: 'Professional guidance',
+    tag: 'Mentorship',
+    tagColor: 'bg-orange-100 text-orange-700',
+    since: 'Volunteer',
+    quote:
+      'Mentorship bridges the gap between dreams and direction.',
   },
+
+
   {
-    image: s4,
-    name: 'Volunteer Diary',
-    place: 'Meera, Engineer & Volunteer',
-    title: '"I came to teach. I left having learnt far more."',
-    body: 'A reflection from one of our weekend volunteers after six months of working with government school children.',
-    tag: 'Volunteer',
+    name: 'Dr Pavitra Srivastava',
+    role: 'Health & Community Support Mentor',
+    location: 'India',
+    avatar: 'PS',
+    avatarColor: 'bg-pink-100 text-pink-700',
+    doing:
+      'Supporting community wellbeing initiatives with a focus on care, awareness and compassionate support.',
+    contribution: 'Community wellbeing',
+    tag: 'Community',
+    tagColor: 'bg-pink-100 text-pink-700',
+    since: 'Volunteer',
+    quote:
+      'Care and compassion create the strongest communities.',
   },
 ]
-
 export const GALLERY = [
   { src: g1, cat: 'Government School Visits', alt: 'Children in a government school classroom', span: 'row-span-2' },
   { src: g2, cat: 'Student Mentorship', alt: 'Mentor speaking with students' },

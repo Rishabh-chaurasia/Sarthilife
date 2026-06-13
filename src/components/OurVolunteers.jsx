@@ -82,7 +82,7 @@ export default function OurVolunteers() {
             <div className="flex flex-col sm:flex-row sm:items-center gap-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Users className="h-4 w-4 text-primary" />
-                <span>Active volunteers across Uttar Pradesh</span>
+                <span>Active volunteers across India</span>
               </div>
               <a href="#volunteer" className="btn-primary text-sm px-4 py-2.5 whitespace-nowrap">
                 Join Them <ArrowRight className="h-4 w-4" />
